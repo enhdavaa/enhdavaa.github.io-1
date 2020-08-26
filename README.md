@@ -32,21 +32,17 @@
             <div class="clr"></div>
         </div>
     </div>
-
     <div class="slideshow-container">
-
         <div class="mySlides fade">
           <div class="numbertext">1 / 4</div>
           <img src="img/indra1.jpg" style="width:100%">
           <div class="text">Caption Text</div>
         </div>
-        
         <div class="mySlides fade">
           <div class="numbertext">2 / 4</div>
           <img src="img/indra2.jpg" style="width:100%">
           <div class="text">Caption Two</div>
         </div>
-        
         <div class="mySlides fade">
             <div class="numbertext">3 / 4</div>
             <img src="img/indra3.jpg" style="width:100%">
@@ -56,33 +52,26 @@
             <div class="numbertext">2 / 4</div>
             <img src="img/indra4.jpg" style="width:100%">
             <div class="text">Caption for</div>
-        </div>
-        
+        </div>    
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>        
     </div>
-        <br>
-        
+        <br>       
     <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span> 
         <span class="dot" onclick="currentSlide(2)"></span> 
         <span class="dot" onclick="currentSlide(3)"></span> 
         <span class="dot" onclick="currentSlide(4)"></span>
     </div>
-        
     <script>
         var slideIndex = 1;
             showSlides(slideIndex);
-
         function plusSlides(n) {
         showSlides(slideIndex += n);
         }
-
         function currentSlide(n) {
         showSlides(slideIndex = n);
         }
-
         function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("mySlides");
