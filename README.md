@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 </doctype html>
 <html>
 <head>
@@ -100,6 +101,9 @@
     </script>   
 </body>
 </html>
+=======
+<DOCTYPE html>
+>>>>>>> 18daf99dc173bbae49570e959d0e03662db742c4
 =======
 <DOCTYPE html>
 >>>>>>> 18daf99dc173bbae49570e959d0e03662db742c4
